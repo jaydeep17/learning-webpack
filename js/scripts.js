@@ -1,3 +1,6 @@
 'use strict';
 
-alert('hey there');
+const arr = [0, 1, 2].map(v => v + 1);
+
+
+alert(`hey there, ${arr}`);
